@@ -36,7 +36,6 @@ Following are steps to setup project on local.
 
   ```
   root:[your-database-password]@/[your-database-name]
-
   ```
 
 - Start Go Server
