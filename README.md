@@ -2,7 +2,7 @@
 
 ### Get wet your hands with the TDD approach
 
-<img src="https://github.com/cp-dharti-r/tdd-in-golang-with-gin-and-mysql/blob/main/img/cover-img.png" width="250px" height="250px">
+<img src="https://github.com/cp-dharti-r/tdd-in-golang-with-gin-and-mysql/blob/main/img/cover-img.png">
 <br />
 
 In this repository, we've covered the implementation of crud operation with Test-Driven Development (TDD). 
