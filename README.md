@@ -5,11 +5,11 @@
 <img src="https://github.com/cp-dharti-r/tdd-in-golang-with-gin-and-mysql/blob/main/img/cover-img.png">
 <br />
 
-In this repository, we've covered the implementation of crud operation with Test-Driven Development (TDD). 
+In this repository, we've covered the implementation of crud operation with Test-Driven Development (TDD).
 
-TDD is a software development approach in which tests are written before the implementation of the code. The goal of TDD is to ensure that the code meets the requirements and behaves as expected by constantly testing the code during the development process. 
+TDD is a software development approach in which tests are written before the implementation of the code. The goal of TDD is to ensure that the code meets the requirements and behaves as expected by constantly testing the code during the development process.
 
-This can help to catch bugs early on, improve code quality, and increase confidence in the software. 
+This can help to catch bugs early on, improve code quality, and increase confidence in the software.
 
 TDD is an iterative process that begins with writing a test, running it to confirm it fails, then writing the minimum amount of code to make the test pass and repeating this process until the feature is complete.
 
@@ -33,6 +33,11 @@ Following are steps to setup project on local.
 - Clone project from git.
 
 - Modify database configuration at `main.go` -> `init()` and at `db.go` for testing with your local database credentials.
+
+  ```
+  root:[your-database-password]@/[your-database-name]
+
+  ```
 
 - Start Go Server
 

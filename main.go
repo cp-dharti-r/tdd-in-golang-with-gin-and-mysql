@@ -1,15 +1,14 @@
 package main
 
 import (
-	"database/sql"
-
 	"github.com/gin-gonic/gin"
+	"github.com/jmoiron/sqlx"
 )
 
-var db *sql.DB
+var db *sqlx.DB
 
 func init() {
-	db, _ = sql.Open("mysql", "root:password@/db-name")
+	db, _ = sqlx.Open("mysql", "root:password@/db-name")
 }
 
 func main() {
