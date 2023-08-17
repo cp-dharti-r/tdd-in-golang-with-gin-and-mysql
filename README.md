@@ -24,13 +24,13 @@ You need following prerequisites before setting up this project on your machine.
 - Go with version go1.20 linux/amd64
 - Mysql
 
-If not install already, follow [how to install go](https://go.dev/doc/install)
+If not install already, follow [how to install Golang](https://go.dev/doc/install)
 
 ## Setup
 
 Following are steps to setup project on local.
 
-- Clone project from git.
+- Clone this project.
 
 - Modify database configuration at `main.go` -> `init()` and at `db.go` for testing with your local database credentials.
 
@@ -44,7 +44,7 @@ Following are steps to setup project on local.
   go run main.go
   ```
 
-  If facing package not found error, run:
+  Install package by, run:
 
   ```
   go mod tidy
@@ -54,7 +54,7 @@ Following are steps to setup project on local.
 
 ## Run Tests
 
-- For run TDD of user CRUD operation you need to run below command on your root directory:
+- To run the tests of user CRUD operation you need to run the below command on your root directory:
 
   ```
   go test -v user_test.go
